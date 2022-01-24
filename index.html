@@ -18,21 +18,177 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/Assets/style.css" />
+    <link rel="stylesheet" href="./Assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <h1 class="display-3">Work Day Scheduler</h1> 
+      <p class="lead">A simple calendar app for scheduling your work day</p> 
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
-    </div>
-
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col time-block">
+            <div class="hour">
+              <span id="nine"></span>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="description">
+              <p>Example text</p>
+            </div>
+          </div>
+          <div class="col">
+            <button type="button" class="btn saveBtn center" aria-label="Save">
+              <i class="fas fa-save fa-lg"></i>
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 time-block">
+            <div class="hour">
+              <span id="ten"></span>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="description">
+              <p>Example text</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="btn saveBtn">
+              <i class="fas fa-save fa-lg"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 time-block">
+            <div class="hour">
+              <span id="eleven"></span>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="description">
+              <p>Example text</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="btn saveBtn">
+              <i class="fas fa-save fa-lg"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 time-block">
+            <div class="hour">
+              <span id="noon"></span>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="description">
+              <p>Example text</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="btn saveBtn">
+              <i class="fas fa-save fa-lg"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 time-block">
+            <div class="hour">
+              <span id="one"></span>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="description">
+              <p>Example text</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="btn saveBtn">
+              <i class="fas fa-save fa-lg"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 time-block">
+            <div class="hour">
+              <span id="two"></span>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="description">
+              <p>Example text</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="btn saveBtn">
+              <i class="fas fa-save fa-lg"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 time-block">
+            <div class="hour">
+              <span id="three"></span>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="description">
+              <p>Example text</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="btn saveBtn">
+              <i class="fas fa-save fa-lg"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 time-block">
+            <div class="hour">
+              <span id="four"></span>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="description">
+              <p>Example text</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="btn saveBtn">
+              <i class="fas fa-save fa-lg"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 time-block">
+            <div class="hour">
+              <span id="five"></span>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="description">
+              <p>Example text</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="btn saveBtn">
+              <i class="fas fa-save fa-lg"></i>
+            </div>
+          </div>
+        </div>
+        <!-- Timeblocks go here -->
+      </div>
+    </main>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://kit.fontawesome.com/54508f5056.js" crossorigin="anonymous"></script>
+    <script src="./Assets/script.js"></script>
   </body>
 </html>

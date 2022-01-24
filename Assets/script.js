@@ -45,6 +45,80 @@ $(".description").on("blur", "textarea", function() {
   $(this).replaceWith(taskP);
 });
 
+
+
+    if (moment().isAfter(9, "hour")) {
+        $(".nine").addClass("past");
+      } else if (moment().isSame(9, "hour")) {
+          $(".nine").addClass("present");
+      } else if (moment().isBefore(9, "hour")) {
+          $(".nine").addClass("future");
+      }
+
+      if (moment().isAfter(10, "hour")) {
+        $(".ten").addClass("past");
+      } else if (moment().isSame(10, "hour")) {
+          $(".ten").addClass("present");
+      } else if (moment().isBefore(10, "hour")) {
+          $(".ten").addClass("future");
+      }
+
+      if (moment().isAfter(11, "hour")) {
+        $(".eleven").addClass("past");
+      } else if (moment().isSame(11, "hour")) {
+          $(".eleven").addClass("present");
+      } else if (moment().isBefore(11, "hour")) {
+          $(".eleven").addClass("future");
+      }
+
+      if (moment().isAfter(12, "hour")) {
+        $(".noon").addClass("past");
+      } else if (moment().isSame(12, "hour")) {
+          $(".noon").addClass("present");
+      } else if (moment().isBefore(12, "hour")) {
+          $(".noon").addClass("future");
+      }
+
+      if (moment().isAfter(13, "hour")) {
+        $(".one").addClass("past");
+      } else if (moment().isSame(13, "hour")) {
+          $(".one").addClass("present");
+      } else if (moment().isBefore(13, "hour")) {
+          $(".one").addClass("future");
+      }
+
+      if (moment().isAfter(14, "hour")) {
+        $(".two").addClass("past");
+      } else if (moment().isSame(14, "hour")) {
+          $(".two").addClass("present");
+      } else if (moment().isBefore(14, "hour")) {
+          $(".two").addClass("future");
+      }
+
+      if (moment().isAfter(15, "hour")) {
+        $(".three").addClass("past");
+      } else if (moment().isSame(15, "hour")) {
+          $(".three").addClass("present");
+      } else if (moment().isBefore(15, "hour")) {
+          $(".three").addClass("future");
+      }
+
+      if (moment().isAfter(16, "hour")) {
+        $(".four").addClass("past");
+      } else if (moment().isSame(16, "hour")) {
+          $(".four").addClass("present");
+      } else if (moment().isBefore(16, "hour")) {
+          $("four").addClass("future");
+      }
+
+      if (moment().isAfter(17, "hour")) {
+        $(".five").addClass("past");
+      } else if (moment().isSame(17, "hour")) {
+          $(".five").addClass("present");
+      } else if (moment().isBefore(17, "hour")) {
+          $(".five").addClass("future");
+      }
+
 // var loadTasks = function() {
 //     tasks = JSON.parse(localStorage.getItem("tasks"));
 
